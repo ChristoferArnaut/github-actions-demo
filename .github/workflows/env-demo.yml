@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: Print Greeting
         run: echo "${{ env.GREETING }}, World!"  
+
+env:
+  GREETING: "Hi"
